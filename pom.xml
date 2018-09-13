@@ -68,7 +68,7 @@
 
         <junit.version>4.12</junit.version>
 
-        <kotlin.version>1.2.60</kotlin.version>
+        <kotlin.version>1.2.61</kotlin.version>
         <klogging.version>1.5.9</klogging.version>
     </properties>
 
