@@ -36,7 +36,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/fernice/flare</url>
+        <connection>scm:git:ssh://git@github.com:fernice/maven.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:fernice/maven.git</developerConnection>
+        <url>https://github.com/fernice/maven</url>
     </scm>
 
     <distributionManagement>
