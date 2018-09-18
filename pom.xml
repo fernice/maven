@@ -9,6 +9,7 @@
 
     <name>fernice-maven</name>
     <description>Parent project to provide all general build configuration for all fernice projects.</description>
+    <url>https://github.com/fernice/maven</url>
 
     <developers>
         <developer>
@@ -207,6 +208,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-resources-plugin</artifactId>
+                    <version>3.0.0</version>
                     <configuration>
                         <encoding>${project.encoding}</encoding>
                     </configuration>
