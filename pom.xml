@@ -4,7 +4,7 @@
 
     <groupId>org.fernice</groupId>
     <artifactId>fernice-maven</artifactId>
-    <version>1.0.15</version>
+    <version>1.0.16-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>fernice-maven</name>
@@ -38,7 +38,7 @@
         <connection>scm:git:ssh://git@github.com:fernice/maven.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:fernice/maven.git</developerConnection>
         <url>https://github.com/fernice/maven</url>
-        <tag>fernice-maven-1.0.15</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
