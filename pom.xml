@@ -4,7 +4,7 @@
 
     <groupId>org.fernice</groupId>
     <artifactId>fernice-maven</artifactId>
-    <version>1.0.23-SNAPSHOT</version>
+    <version>1.0.23</version>
     <packaging>pom</packaging>
 
     <name>fernice-maven</name>
