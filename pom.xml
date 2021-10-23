@@ -4,7 +4,7 @@
 
     <groupId>org.fernice</groupId>
     <artifactId>fernice-maven</artifactId>
-    <version>1.0.34</version>
+    <version>1.0.35</version>
     <packaging>pom</packaging>
 
     <name>fernice-maven</name>
@@ -66,10 +66,12 @@
         <maven-compile-plugin.version>3.7.0</maven-compile-plugin.version>
         <git-commit-id-plugin.version>2.1.11</git-commit-id-plugin.version>
 
-        <kotlin.version>1.5.20</kotlin.version>
+        <kotlin.version>1.5.31</kotlin.version>
+
+        <jetbrains-annotations.version>22.0.0</jetbrains-annotations.version>
 
         <junit.version>4.13.2</junit.version>
-        <slf4j.version>1.7.30</slf4j.version>
+        <slf4j.version>1.7.32</slf4j.version>
     </properties>
 
     <repositories>
@@ -165,7 +167,7 @@
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>19.0.0</version>
+            <version>${jetbrains-annotations.version}</version>
         </dependency>
     </dependencies>
 
