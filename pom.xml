@@ -4,7 +4,7 @@
 
     <groupId>org.fernice</groupId>
     <artifactId>fernice-maven</artifactId>
-    <version>1.0.35</version>
+    <version>1.0.36</version>
     <packaging>pom</packaging>
 
     <name>fernice-maven</name>
@@ -17,7 +17,7 @@
             <name>Iven Krall</name>
             <email>iven.krall@gmail.de</email>
             <organization>fernice</organization>
-            <organizationUrl>http://www.fernice.org</organizationUrl>
+            <organizationUrl>https://www.fernice.org</organizationUrl>
             <roles>
                 <role>architect</role>
                 <role>developer</role>
@@ -29,7 +29,7 @@
     <licenses>
         <license>
             <name>Mozilla Public License, Version 2.0</name>
-            <url>http://www.mozilla.org/MPL/2.0/index.txt</url>
+            <url>https://www.mozilla.org/MPL/2.0/index.txt</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -66,18 +66,18 @@
         <maven-compile-plugin.version>3.7.0</maven-compile-plugin.version>
         <git-commit-id-plugin.version>2.1.11</git-commit-id-plugin.version>
 
-        <kotlin.version>1.5.31</kotlin.version>
+        <kotlin.version>1.6.10</kotlin.version>
 
         <jetbrains-annotations.version>22.0.0</jetbrains-annotations.version>
 
         <junit.version>4.13.2</junit.version>
-        <slf4j.version>1.7.32</slf4j.version>
+        <slf4j.version>1.7.33</slf4j.version>
     </properties>
 
     <repositories>
         <repository>
             <id>central</id>
-            <url>http://repo1.maven.org/maven2</url>
+            <url>https://repo1.maven.org/maven2</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -90,12 +90,17 @@
             <name>kotlin-eap</name>
             <url>https://dl.bintray.com/kotlin/kotlin-eap</url>
         </repository>
+        <repository>
+            <id>maven_central</id>
+            <name>Maven Central</name>
+            <url>https://repo.maven.apache.org/maven2/</url>
+        </repository>
     </repositories>
 
     <pluginRepositories>
         <pluginRepository>
             <id>central</id>
-            <url>http://repo1.maven.org/maven2</url>
+            <url>https://repo1.maven.org/maven2</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -105,7 +110,7 @@
         </pluginRepository>
         <pluginRepository>
             <id>spring</id>
-            <url>http://repo.spring.io/plugins-release/</url>
+            <url>https://repo.spring.io/plugins-release/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
