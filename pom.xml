@@ -66,12 +66,12 @@
         <maven-compile-plugin.version>3.7.0</maven-compile-plugin.version>
         <git-commit-id-plugin.version>2.1.11</git-commit-id-plugin.version>
 
-        <kotlin.version>1.6.10</kotlin.version>
+        <kotlin.version>1.7.10</kotlin.version>
 
-        <jetbrains-annotations.version>22.0.0</jetbrains-annotations.version>
+        <jetbrains-annotations.version>23.0.0</jetbrains-annotations.version>
 
         <junit.version>4.13.2</junit.version>
-        <slf4j.version>1.7.33</slf4j.version>
+        <slf4j.version>1.7.36</slf4j.version>
     </properties>
 
     <repositories>
@@ -183,6 +183,12 @@
                     <artifactId>kotlin-maven-plugin</artifactId>
                     <groupId>org.jetbrains.kotlin</groupId>
                     <version>${kotlin.version}</version>
+                    <configuration>
+                        <jvmTarget>1.8</jvmTarget>
+                        <args>
+                            <arg>-Xjvm-default=all</arg>
+                        </args>
+                    </configuration>
                     <executions>
                         <execution>
                             <id>compile</id>
@@ -297,7 +303,7 @@
                 <plugin>
                     <groupId>org.jetbrains.dokka</groupId>
                     <artifactId>dokka-maven-plugin</artifactId>
-                    <version>0.9.18</version>
+                    <version>1.7.0</version>
                     <executions>
                         <execution>
                             <phase>compile</phase>
@@ -308,7 +314,6 @@
                         </execution>
                     </executions>
                     <configuration>
-                        <reportNotDocumented>false</reportNotDocumented>
                     </configuration>
                 </plugin>
 
