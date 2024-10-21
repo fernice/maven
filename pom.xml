@@ -67,9 +67,9 @@
         <git-commit-id-plugin.version>2.1.11</git-commit-id-plugin.version>
 
         <kotlin.version>2.0</kotlin.version>
-        <kotlin-lib.version>2.0.20</kotlin-lib.version>
+        <kotlin-lib.version>2.0.21</kotlin-lib.version>
 
-        <jetbrains-annotations.version>23.0.0</jetbrains-annotations.version>
+        <jetbrains-annotations.version>26.0.1</jetbrains-annotations.version>
 
         <junit.version>4.13.2</junit.version>
         <slf4j.version>1.7.36</slf4j.version>
