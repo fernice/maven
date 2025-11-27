@@ -66,8 +66,8 @@
         <maven-compile-plugin.version>3.7.0</maven-compile-plugin.version>
         <git-commit-id-plugin.version>2.1.11</git-commit-id-plugin.version>
 
-        <kotlin.version>2.0</kotlin.version>
-        <kotlin-lib.version>2.0.21</kotlin-lib.version>
+        <kotlin.version>2.2</kotlin.version>
+        <kotlin-lib.version>2.2.20</kotlin-lib.version>
 
         <jetbrains-annotations.version>26.0.1</jetbrains-annotations.version>
 
